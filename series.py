@@ -32,3 +32,13 @@ def sum_series(n, n_one=0, n_two=1):
 
 # n = int(input("n = ?"))
 # print(sum_series(n, 2, 1))
+
+# ////////////////////////////////////////////////////////////////////////////////
+
+def sum_series_two(n, n_one=0, n_two=1):
+    if(n_one == 2 and n_two == 1):
+        return lucas(n)
+    else:
+        return fibonacci(n)
+
+n = int(input)
